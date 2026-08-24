@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: hw04-nguyendangduong-cntt2-it213-ss10
+
+langfuse:
+    public-key: ${LANGFUSE_PUBLIC_KEY}
+    secret-key: ${LANGFUSE_SECRET_KEY}
+    base-url: ${LANGFUSE_BASE_URL:http://localhost:3000}
